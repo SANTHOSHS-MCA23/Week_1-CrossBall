@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="Ball1" style="
+    background-color:blueviolet;
+    border-radius: 50%;
+    top:0px;
+    left:0px;
+    position:absolute;
+    width:50px;
+    height:50px;
+    z-index:5;
+    ">
+</div>
+<script>
+    var moveleft=2;
+    var velocity=1;
+    var position=0;
+    function moveBall(){
+        position+=moveleft*velocity;
+        var Ball1=document.getElementById("Ball1")
+        if(position>=900 || position<=100)
+        {
+            moveleft*=-1;
+        }
+            Ball1.style.left=position+"px"
+            Ball1.style.top=position+"px"
+        }
+    setInterval(moveBall,200)
+    
+</script>
+</body>
+</html>
