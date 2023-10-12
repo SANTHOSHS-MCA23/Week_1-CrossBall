@@ -1,12 +1,15 @@
-# Project Description:
-This project showcases a straightforward yet captivating concept—a vibrant green ball perpetually bouncing between the top and bottom of the screen. Constructed using HTML and styled with CSS, this animated ball delivers a continuous up-and-down motion each time the webpage is loaded. JavaScript powers its interactive behavior, enabling a range of engaging events and animations.
+# SIMULATION BALL MOVEMENT
 
-# Steps to Run the Project:
+# Description:
 
-1.Drag and drop the index file into your web browser.
+This HTML page displays a continuous bouncing red ball animation within a rectangular area, controlled by JavaScript using the setInterval function with a 500-millisecond interval.
 
-2.Refresh the page to witness the captivating bouncing ball animation in action.
+# How to run the code:
 
-# Future Enhancements:
+Step 1: Save the HTML file with a .html extension.
 
-This project presents an exciting opportunity for further enhancement. In the future, consider recreating the animation with a fresh perspective. Explore new styles, shapes, and patterns for the bouncing ball. Incorporate innovative animations or interactive elements to take this simple concept to new heights. The possibilities are boundless, and this project serves as a fantastic canvas for your creative ideas.
+Step 2: Install the Live Server extension in Visual Studio Code, then click the "Go Live" button at the bottom right corner of the VSCode window to open a new browser window displaying the ball-moving animation.
+
+# Future improvement:
+
+consider adding user interaction features like mouse or keyboard control to change the ball's direction or speed, or adding obstacles or targets for the ball to interact with, creating a more engaging and interactive animation.
